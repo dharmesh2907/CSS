@@ -1,0 +1,31 @@
+.nav{
+    background-color: antiquewhite;
+}
+ul{
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; for cross top to bottom */
+    /* align item container ma apply thy ane align self individual flex item ma apply thy align self ni priority higher hse*/
+}
+.inner{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    
+}
